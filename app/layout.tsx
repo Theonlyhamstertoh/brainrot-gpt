@@ -12,13 +12,9 @@ import { TooltipProvider } from "@/components/ui/tooltip"
 
 export const metadata: Metadata = {
   title: "BrainrotGPT",
-  metadataBase: new URL(process.env.SITE_URL!),
   description: "Brainrot GPT",
   icons: {
     icon: "/favicon.ico",
-  },
-  openGraph: {
-    images: ["/assets/og.png"],
   },
 }
 
