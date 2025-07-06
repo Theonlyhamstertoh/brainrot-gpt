@@ -10,15 +10,10 @@ import { Suspense } from "react"
 import { generateId } from "ai"
 import { TooltipProvider } from "@/components/ui/tooltip"
 
-if (!process.env.SITE_URL) {
-  throw new Error("Missing Environment Variable SITE_URL")
-}
-
 export const metadata: Metadata = {
-  title: "Bluon AI MasterMechanic - HVAC AI",
+  title: "BrainrotGPT",
   metadataBase: new URL(process.env.SITE_URL!),
-  description:
-    "Bluon's AI MasterMechanic is a breakthrough artificial intelligence system for the HVAC industry. It's designed to help HVAC service technicians diagnose and solve most problems in the field, using only natural language inputs. ",
+  description: "Brainrot GPT",
   icons: {
     icon: "/favicon.ico",
   },
