@@ -37,7 +37,7 @@ export async function POST(req: Request) {
       console.warn("ElevenLabs API key not found, falling back to OpenAI")
     } else {
       try {
-        const voiceId = "u74bXifKoysNADTfUzoE"
+        const voiceId = "CeNX9CMwmxDxUF5Q2Inm"
 
         const elevenlabsResponse = await fetch(
           `${ELEVENLABS_BASE_URL}/text-to-speech/${voiceId}`,

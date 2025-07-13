@@ -4,14 +4,13 @@ import { AIAvatar } from "../ai-avatar"
 import { cn } from "@/lib/utils"
 import { WordsPullUp } from "../chat/words-pull-up"
 import { useIsMobile } from "@/hooks/use-mobile"
-import { Disclaimer } from "../disclaimer"
 
 export const AIMessageWrapper = ({
   children,
   className,
   isLast,
   isLoading,
-  name = "MasterMechanic",
+  name = "Dr. Brainrot ",
   hideDisclaimer = false,
 }: {
   children: React.ReactNode
